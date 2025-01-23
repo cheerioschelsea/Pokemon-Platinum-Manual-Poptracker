@@ -84,8 +84,8 @@ function hidden_on()
   return has("opt_hidden_on")
 end
 
-function champ() -- don't we also need surf to get there?
-  return has("ForestBadge") and has("CobbleBadge") and has("FenBadge") and has("MineBadge") and has("RelicBadge") and has("CoalBadge") and has("BeaconBadge") and has("IcicleBadge") and has("HM07WaterFall") and has("HM06RockSmash")
+function champ()
+  return badges(8) and waterfall() and rocksmash()
  end
 
 function vict_arceus()
@@ -154,7 +154,7 @@ function battlezoneon()
 	return has("opt_bz_on")
 end
 
-function ssb() -- what does ssb mean?
+function ssb()
   return east()
   and has("event_distortion")
 end
