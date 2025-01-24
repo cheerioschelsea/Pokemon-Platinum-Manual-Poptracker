@@ -284,7 +284,7 @@
 			},
 			{
 				"name": "",
-				"map_locations": [{"map": "celestictown", "x": 219, "y": 383}],
+				"map_locations": [{"map": "celestictown", "x": 249, "y": 204}],
 				"sections": [{"ref": "Sinnoh/Celestic Town/HM03 from Cynthia's Grandmother"}]
 			},
 			{
